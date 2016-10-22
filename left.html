@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>汇协人力-首页</title>
+<link href="css/admin_css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/nav.js"></script>
+<script type="text/javascript" src="js/singer.js"></script>
+</head>
+
+<body>
+  <div class="container">
+  <!--导航-->
+        <div class="main_left_top">
+               <div class="main_left_top_Head_portrait"><img src="images/Head portrait.png"/></div>
+               <div class="main_left_top_font">
+                  <span>admin,欢迎登陆</span><br/>
+                  <div class="main_left_top_btn">
+                  <div class="singer">
+                    <!--<div class="singer_l_cont">
+                        <span>签到打卡</span>
+                    </div>-->
+                    <div class="singer_r_r">
+                        <a class="singer_r_img" href="#">		
+                            <span class="sing_for_number"></span>
+                        </a>
+                    </div>
+                </div><!--singer end-->
+               </div>
+               </div>
+             </div>
+        
+            <div class="leftsidebar_box">
+                <div class="line"></div>
+                <dl class="index_home">
+                  <dt onClick="changeImage()"><span class="home"><a href="index.html" target="_parent">首页</a></span><img src="images/select_xl01.png"></dt>
+                </dl>
+                
+                <dl class="personnel">
+                    <dt onClick="changeImage()"><span class="home">人员管理</span><img src="images/select_xl01.png"></dt>
+                    <dd class="first_dd"><a href="information_management.html" target="main">基本信息</a></dd>
+                    <dd class="first_dd"><a href="New_information.html" target="main">新增信息</a></dd>
+                    <dd class="first_dd"><a href="Position_information.html" target="main">职位信息</a></dd>
+                </dl>
+            
+                <dl class="custom">
+                    <dt onClick="changeImage()"><span class="home">考勤管理</span><img src="images/select_xl01.png"></dt>
+                    <dd class="first_dd"><a href="Attendance_Sheet.html" target="main" >员工考勤表</a></dd>
+                    <dd class="first_dd"><a href="leave_to_add.html" target="main">员工请假申请表</a></dd>
+                    <dd class="first_dd"><a href="Leave_record.html" target="main">员工请假记录表</a></dd>
+                    <dd class="first_dd"><a href="Overtime_record.html" target="main">员工加班记录表</a></dd>
+                    <dd class="first_dd"><a href="Employee_overtime_record.html" target="main">员工记录添加表</a></dd>
+                    <dd class="first_dd"><a href="Leave_application_form.html" target="main">员工请假添加表</a></dd>
+                </dl>
+            
+                <dl class="channel">
+                    <dt><span class="home">培训管理</span><img src="images/select_xl01.png"></dt>
+                    <dd class="first_dd"><a href="Trainingrecordmanagement.html" target="main">培训记录管理</a></dd>
+                    <dd class="first_dd"><a href="Trainingrecord.html" target="main">新建培训记录</a></dd>
+                    <dd class="first_dd"><a href="EducationTraining_paper.html" target="main">培训考试</a></dd>
+                    <dd class="first_dd"><a href="EducationTraining_xinTitle.html" target="main">题库</a></dd>
+                    <dd class="first_dd"><a href="EducationTraining_Papersheet.html" target="main" >新建试卷</a></dd>
+                    <dd class="first_dd"><a href="EducationTraining_xinpaper.html" target="main">试卷库</a></dd>
+                    <dd class="first_dd"><a href="EducationTraining_Alternativesinglepage.html" target="main">添加备选项</a></dd>
+                </dl>
+                        
+                <dl class="cloud">
+                    <dt><span class="home">薪资管理</span><img src="images/select_xl01.png"></dt>
+                    <dd class="first_dd"><a href="GSalary.html" target="main">薪资统表</a></dd>
+                    <dd class="first_dd"><a href="Salary.html" target="main">薪资新增表</a></dd>
+                    <dd class="first_dd"><a href="Gprpun.html" target="main">奖惩统表</a></dd>
+                    <dd class="first_dd"><a href="Reward_and_Punishment.html" target="main">奖惩新增表</a></dd>
+                </dl>
+            
+                <dl class="syetem_management">
+                    <dt><span class="home">合同管理</span><img src="images/select_xl01.png"></dt>
+                    <dd class="first_dd"><a href="Employee_contract.html" target="main">员工合同</a></dd>
+                    <dd class="first_dd"><a href="Employee_contract_addition.html" target="main">员工合同添加表</a></dd>
+                </dl>
+            
+                <dl class="source">
+                    <dt ><span class="home">印章管理</span><img src="images/select_xl01.png"></dt>
+                    <dd class="first_dd"><a href="seal_information.html" target="main">印章管理</a></dd>
+                    <dd class="first_dd"><a href="seal.html" target="main">印章使用记录</a></dd>
+                </dl>
+            
+                <dl class="statistics">
+                    <dt><span class="home">统计报表管理</span><img src="images/select_xl01.png"></dt>
+                    <dd class="first_dd"><a href="Personnelreport.html" target="main">人事报表</a></dd>
+                    <dd class="first_dd"><a href="Salaryreport.html" target="main">工资报表</a></dd>
+                    <dd class="first_dd"><a href="Examinationreport.html" target="main">考试报表</a></dd>
+                    <dd class="first_dd"><a href="Trainingreport.html" target="main">培训报表</a></dd>
+                </dl>
+                
+                <dl class="role">
+                    <dt><span class="home">系统管理</span><img src="images/select_xl01.png"></dt>
+                    <dd class="first_dd"><a href="GDepartment.html" target="main">部门管理</a></dd>
+                    <dd class="first_dd"><a href="Department.html" target="main">部门管理新增表</a></dd>
+                    <dd class="first_dd"><a href="GRole.html" target="main">角色管理</a></dd>
+                    <dd class="first_dd"><a href="Role.html" target="main">角色新增表</a></dd>
+                </dl>
+            </div>
+            
+ </div>
+</body>
+</html>

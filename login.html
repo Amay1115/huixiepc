@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>欢迎登录汇协人力后台管理系统</title>
+<link href="css/information management.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/cloud.js" type="text/javascript"></script>
+<script language="javascript">
+	//验证用户名和密码
+  $(document).ready(function(e) {
+	  $(".loginbtn").click(function(){
+		  var name=$(".loginuser").val();
+		  var rename=/^\w{5,15}$/;
+		  if(rename.test(name))
+		    {
+			 $(".loginspan").text("");  
+			}
+		  else
+			  {
+				  $(".loginspan").text("用户名格式错误  请输入6-16位字符");
+			  }
+			  
+		  var pwd=$(".loginpwd").val();
+		  var repwd=/^\w{5,15}$/;
+		  if(repwd.test(pwd))
+		    {
+			  $(".loginadd").text(""); 
+			 }
+		  else
+			  {
+				    $(".loginadd").text("密码有误或格式错误  请重新输入");
+			  }
+		  });
+  });
+	$(function(){
+    $('.loginbox').css({'position':'absolute','left':($(window).width()-692)/2});
+	$(window).resize(function(){  
+    $('.loginbox').css({'position':'absolute','left':($(window).width()-692)/2});
+    })  
+	});  
+</script>
+</head>
+<body style="background-color:#5daee5;background-repeat:no-repeat; background-position:center top; overflow:hidden;">
+   <!--云层飘动-->
+<div id="mainBody">
+  <div id="cloud1" class="cloud"></div>
+  <div id="cloud2" class="cloud"></div>
+</div>  
+    <!--使登录框居中-->
+<div class="loginbody">
+  <span class="systemlogo"></span> 
+<div class="loginbox">
+    <ul>
+      <li><input name="d1" type="text" class="loginuser" value="请输入6-16位字符" onclick="JavaScript:this.value=''"/>
+      		<span class="loginspan"></span>
+      </li>
+      <li><input name="d2" type="password" class="loginpwd" value="请输入6-16位字符" onclick="JavaScript:this.value=''"/>
+      	<span class="loginadd"></span>
+      </li>
+      <li><input name="" type="button" class="loginbtn" value="登录"  onclick="#"/>
+      <label><input name="" type="checkbox" value="" checked="checked" />记住密码</label><label>
+      <label><input name="" type="checkbox" value="" checked="checked" />自动登录</label></label>
+      </li>
+    </ul>
+</div>
+</div>
+<div class="loginbm">版权所有&nbsp;&nbsp; &nbsp;&nbsp;汇协人力资源项目</div>
+</body>
+</html>

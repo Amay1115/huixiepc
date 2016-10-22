@@ -1,0 +1,126 @@
+﻿@charset "utf-8";
+*{font-size:9pt;border:0;margin:0;padding:0;}
+body{font-family:'微软雅黑'; margin:0 auto;min-width:980px;}
+ul{display:block;margin:0;padding:0;list-style:none;}
+li{display:block;margin:0;padding:0;list-style: none;}
+img{border:0;}
+dl,dt,dd,span{margin:0;padding:0;display:block;}
+a,a:focus{text-decoration:none;color:#000;outline:none;blr:expression(this.onFocus=this.blur());}
+a:hover{color:#EB5409;text-decoration:none;}
+table{border-collapse:collapse;border-spacing: 0;}
+cite{font-style:normal;}
+h2{font-weight:normal;}
+
+/*云层飘动*/
+
+#mainBody {width:100%;height:100%;position:absolute;z-index:-1;}
+.cloud {position:absolute;top:0px;left:0px;width:100%;height:100%;background:url(../images/cloud.png) no-repeat;z-index:1;opacity:0.8;}
+#cloud2 {z-index:2;}
+
+/*登录样式*/
+
+.logintop{height: 47px;position: absolute;top: -111px;background: url(../images/loginbg1.png) repeat-x;z-index: 100;width: 100%;left: 15px;}
+.logintop ul{float:right; padding-right:30px;}
+.logintop ul li{float:left; margin-left:20px; line-height:47px;}
+.logintop ul li a{color:#fff;}
+.logintop ul li a:hover{color:#fff;}
+.loginbody{width:100%; height:585px; overflow:hidden; position:absolute; top:47px;}
+.loginbox{width:692px; height:336px; background:url(../images/logininfo.png) no-repeat; margin-top:30px;}
+.loginbox ul{margin-top:88px; margin-left:285px;}
+.loginbox ul li{margin-bottom:25px;}
+.loginbox ul li label{color:#4b4343; padding-left:25px;}
+.loginbox ul li label a{color:#4b4343;}
+.loginbox ul li label a:hover{color:#5daee5;}
+.loginbox ul li label input{margin-right:5px;}
+.loginbox,.loginbox1,.loginbox2,.loginbox3,.loginbox4{width:692px; height:373px;margin-top:30px;}
+.loginuser{width:299px; height:48px; background:url(../images/loginuser.png) no-repeat; border:none; line-height:48px; padding-left:44px; font-size:16px; color:#999;}
+.loginpwd{width:299px; height:48px; background:url(../images/loginpassword.png) no-repeat; border:none;line-height:48px; padding-left:44px; font-size:20px; color:#999; font-weight:bold;}
+.loginbtn{width:111px;height:35px; background:url(../images/buttonbg.png) repeat-x; font-size:14px; font-weight:bold; color:#fff;cursor:pointer; line-height:35px;}
+.loginbm{height:50px; line-height:50px; text-align:center; background:url(../images/loginbg2.png) repeat-x;position:absolute; bottom:0; width:100%; color:#fff8f5;}
+.loginbm a{font-weight:bold;color:#fff8f5;}
+.loginbm a:hover{color:#fff;}
+
+.loginbox1{background:url(../images/logininfo1.png) no-repeat;}
+.loginbox1 ul li{margin-bottom:16px;}
+.loginbox2{background:url(../images/logininfo2.png) no-repeat;}
+.loginbox2 ul li{margin-bottom:16px;}
+.loginbox3{background:url(../images/logininfo3.png) no-repeat;}
+.loginbox3 ul li{margin-bottom:16px;}
+.yzm{width:341px; height:46px; background:url(../images/yzmbg.png) no-repeat; padding-bottom:5px;}
+.yzm span{display:block; float:left;width:227px; height:46px;}
+.yzm span input{background:none; border:none; width:183px; height:46px; line-height:46px;padding-left:44px;font-size:14px; color:#fff;}
+.yzm cite{float:right; width:114px; height:46px; line-height:46px; font-size:18px; color:#fff; text-align:center;}
+
+.loginbody1{background:url(../images/loginbg4.png) no-repeat center center; width:100%; height:585px; overflow:hidden; position:absolute; top:47px;}
+.systemlogo{width:100%; height:71px; margin-top:120px; text-align:center;}
+.loginbox0{width:810px;margin-top:0px;height:252px;}
+.loginlist{width:810px; overflow:hidden;}
+.loginlist{margin-top:110px;}
+.loginlist li{float:left; margin-left:3px; margin-right:3px;}
+.loginlist li a{ display:block;width:196px; height:252px; background:url(../images/lbg.png) no-repeat; text-align:center; padding-top:25px; cursor:pointer;}
+.loginlist li a:hover{background:url(../images/lbg1.png) no-repeat;}
+.loginlist li a p{font-size:16px; color:#fff; padding-top:10px;}
+
+/*人员信息样式*/
+
+.place{height:40px; background:url(../images/righttop1.png) repeat-x;}
+.place span{line-height:40px; font-weight:bold;float:left; margin-left:12px;color:#dc4e00;}
+.placeul li{float:left; line-height:40px; padding-left:7px; padding-right:12px; background:url(../images/rlist.gif) no-repeat right;}
+.placeul li a{ color:#FFF;}
+.placeul li:last-child{background:none;}
+.rightinfo{padding:8px;}
+.tools{clear:both; height:35px; margin-bottom:8px; margin-top:20px;}
+.tools1{ float:left;}
+.tools2{ float:right;}
+.toolbar{float:left;}
+.toolbar li{background:url(../images/toolbg1.png) repeat-x; color:#FFF; line-height:33px; height:33px;float:left; padding-right:10px; margin-right:5px;border-radius: 3px; behavior:url(js/pie.htc); cursor:pointer;}
+.toolbar li span{float:left; margin-left:10px; margin-right:5px; margin-top:5px;}
+.toolbar_lq{ width:30px; height:33px; float:left;}
+.toolbar1 li{background:url(../images/toolbg1.png) repeat-x; line-height:33px; height:33px; border:solid 1px #ECCDA1; float:left; padding-right:10px; margin-left:5px;border-radius: 3px; behavior:url(js/pie.htc);}
+.toolbar1 li span{float:left; margin-left:10px; margin-right:5px; margin-top:5px;}
+.tablelist{/*border:solid 1px #80c4f3; 大表格1px蓝色边框*/width:100%; clear:both; margin-top:10px;}
+.tablelist th{background:url(../images/th1.png) repeat-x; height:34px; color:#000; line-height:34px; text-indent:11px; text-align:left;}
+.tablelist td{line-height:35px; text-indent:11px;/*border-right: dotted 1px #F2BF74;表格靠右的虚线*/}
+.tablelink{background-color:#fff; margin-left:5px; color:#444;height:30px; border:1px solid #FFF; width:50px;border-radius:5px 5px 5px 5px;}
+.tablelink:hover{ background-color:#FEA186; color:#fff; cursor:pointer;}
+.tablelist tbody tr.odd{background:#FFF7EA;}
+.tablelist tbody tr:hover{background:#FFDCA9;}
+.sort{padding-left:3px;}
+
+/*翻页样式*/
+
+/*全选*/
+.recored_b_c_lq{width:395px; height: 30px;margin-left:2%; margin-top:15px}
+.center_b_c_a_lq{width: 50px;height: 30px;background: #ff653a;float: left;font-family: "微软雅黑";font-size: 14px;line-height: 30px;text-align: center;color: #FFF;margin-left: 15px; border-radius:5px; cursor:pointer;}
+.center_b_c_a_lq:hover{width: 50px;height: 30px;background: #fea186;float: left;font-family: "微软雅黑";font-size: 14px;line-height: 30px;text-align: center;color: #FFF;margin-left: 15px; border-radius:5px; cursor:pointer;}
+/*top*/
+.cnm{ width:100%; height:40px; padding-left:10px; padding-top:10px;}
+.cnm img{ float:left;}
+.cnm span{ float:left; line-height:30px; margin-left:15px; ;font-family: "微软雅黑";font-size: 14px; color:#444;}
+.gjj{ width:100%; height:50px; padding-top:20px; padding-left:30px;}
+.gjj img{ float:left;}
+.gjj span{ float:left; line-height:40px; margin-left:15px; font-size:16px;}
+.leave_main_Line_ly img{ width:100%;}
+.position_hr_ly{border-bottom:1px solid #d8d8d8; width:100%}
+.text_b_c{  width:200px; height:30px; border:#ccc 1px solid; padding-left:10px; float:left;}
+/*上一页下一页*/
+.attendance_main_Page_button_ly{ width:100%; height:50px;}
+.center_b_b_lf{width: 395px;height: 30px;margin-left: 42%;margin-top:5px;}
+.center_b_b_a_lf{width: 30px;height: 30px;float: left; cursor:pointer;}
+.center_b_b_a_lf img{margin-top: 10px;margin-left: 10px;}
+.center_b_b_b_lf{ width:30px; height:30px; float:left; background:#333; color:#FFF; text-align:center; line-height:30px;}
+.center_b_b_c_lf{ width:30px; height:30px; float:left;text-align:center; line-height:30px;}
+.center_b_b_d_lf{width:50px; height:30px; float:left;text-align:center; line-height:30px;}
+.center_b_b_e_lf{ width:135px; height:30px; background:#3ac0ff;float:left; text-align:center; line-height:30px; color:#FFF;font-family: "微软雅黑";font-size: 14px;}
+.center_b_c_lf{ width:395px; height: 30px;margin-top:10px;margin-left:22px;}
+.center_b_c_a_lf{width: 70px;height: 30px;float: left;}
+.center_b_c_a_lf input{ margin-top:8px;}
+.center_b_c_b_lf{width:60px; height: 30px; float:left;line-height:30px;font-family: "微软雅黑";font-size: 14px;}
+.center_b_c_c_lf{width: 78px;height: 30px;background: #fe644d;float: left;font-family: "微软雅黑";font-size: 13px;line-height: 28px;text-align: center;color: #FFF;margin-left: 30px;margin-top: 10px;}
+/*操作后面的*/
+.post_main_delete_lq{background-color:#fff; margin-left:5px; color:#444;height:30px; border:1px solid #FFF; width:50px;border-radius:5px 5px 5px 5px;}
+.post_main_delete_lq:hover{ background-color:#FEA186; color:#fff; cursor:pointer;}
+
+/*返回上一页*/
+.nav_place_lf{float:right;line-height: 29px;margin-right:5%;font-family: "微软雅黑";font-size: 14px; color:#444}
+.nav_place_lf:hover{ color:#30b5ff;}

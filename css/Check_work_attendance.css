@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* 基础属性 */
+body,td,th {font-size: 12px;}
+body {margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+*{ padding:0; margin:0;}
+ul,li{margin:0;padding:0;list-style:none;}
+
+/*员工申请表*/
+.leave_main_ly{width:100%; margin:auto;}
+/*当前位置*/
+.position_ly{width:100%; height:52px;}
+.position_a_ly{ color:#444444;font-family:"微软雅黑"; font-size:14px;}
+.position_img_ly{float:left; width:30px;}
+.position_img_ly img{margin-left:10px; margin-top:15px;}
+.position_hr_ly{border-bottom:1px solid #d8d8d8; width:100%}
+.position_txt_ly{float:left; color:#000; margin-left:20px; margin-top:20px;}
+.position_hrone_ly{width:96%; height:2px;}
+.position_hronee_ly{width:99%; height:2px;}
+/*标题*/
+.leave_main_title_ly{ width:100%; height:61px;}
+.nav_left_lf{ width: 25%; height:61px; float:left;}
+.nav_left_ico_lf{ width:20%; margin-left:2%; float:left; margin-top:3%;}
+.nav_left_ico_lf img{ margin-left:20%;}
+.nav_left_txt_lf{ width:78%; float:left; font-family:"微软雅黑"; font-size:20px;line-height:61px;}
+.nav_left_txt_lf span{ margin-left:15px;}
+/*线*/
+.leave_main_Line_ly img{ width:100%;}
+/*nav*/
+.leave_main_nav_ly{ width:90%; margin-top:10px; height:35px; margin-left:10px;}
+.leave_main_nav_font_ly{color:#444444; margin-left:10px; text-decoration:none;  font-family:"微软雅黑"; font-size:14px;}
+.leave_main_nav_font_ly:hover{color:#5CADE5; cursor:pointer;}
+.leave_main_nav_font_ly:active{color:#5CADE5; cursor:pointer;}
+/*表单*/
+.center_a_lf{width: 95%;height: 550px;display: block;cursor: pointer;margin-top: 5%;margin-left: 20px;position: absolute;top: 121px;
+}
+.center_a_a_lf{width: 97%;height: 35px;margin-top: 5px;margin-left: 10px;}
+.center_a_a_left_lf{ width:20%; height:35px;float:left;font-family: "微软雅黑";font-size: 14px;line-height: 30px;text-align: center;color:#000;}
+.center_a_a_right_lf{width: 80%;float: left;margin-top: 5px;}
+.input_a_lf{width:300px; height:25px; border: 1px solid #dadada;}
+.laydate-icon{width:280px; height:28px; border: 1px solid #dadada;}
+.center_a_a_right_textarea_ly{ width:30%; height:150px;}
+.center_a_a_right_lf input{margin-left:3%;}
+.center_o_lf{width: 25%;float: left;position: absolute;margin-left: 43px;}
+form {margin-top: 15px;width: 100%;}
+textarea {width: 200px;height: 30px;border: 1px solid #dadada;margin-left:3%;}
+select {width: 150px;height: 28px;border: 1px solid #dadada;margin-left:3%;} 
+<!--提交 重置-->
+.center_a_btn_lf{width: 97%;height: 30px;}
+.center_a_btn_a_lf{width: 68px;height: 32px; margin-top:5%;float: left; margin-left:100px;}
+.center_a_btn_a_lf_submit_ly{ background-color:#FF653A; color:#FFF; margin-left:150px; height:30px; border:1px solid #FFF; width:50px;border-radius:5px 5px 5px 5px;}
+.center_a_btn_a_lf_reset_ly{ background-color:#FF653A; color:#FFF; margin-left:400px; height:30px; border:1px solid #FFF; width:50px;border-radius:5px 5px 5px 5px;}
+.center_a_btn_a_lf_reset_ly:hover{ background-color:#FEA186; color:#fff; cursor:pointer;}
+.center_a_btn_a_lf_submit_ly:hover{ background-color:#FEA186; color:#fff; cursor:pointer;}
+
+
+/*员工考勤表*/
+.attendance_main_query_ly{ width:100%;}
+.attendance_main_query_left_ly{ width:30%; float:left;}
+.attendance_main_query_left_font_ly{ margin-left:20px;}
+.attendance_main_query_left_button_ly{background-color:#FF653A; margin-left:7px; color:#FFF;height:30px; border:1px solid #FFF; width:50px;border-radius:5px 5px 5px 5px;}
+.attendance_main_query_left_button_ly:hover{ background-color:#FEA186; color:#fff; cursor:pointer;}
+.attendance_main_query_right_ly{ width:70%; float:right;}
+.attendance_main_query_right_button_ly{background-color:#FF653A; margin-top:1.5%; margin-left:90%; color:#FFF;height:30px; border:1px solid #FFF; width:50px;border-radius:5px 5px 5px 5px;}
+.attendance_main_query_right_button_ly:hover{ background-color:#FEA186; color:#fff; cursor:pointer;}
+
+/*表格*/
+.attendance_main_table_ly{ width:99.5%; float:right; margin-top:20px;}
+table th{background-color: #EEEEEE;}/*标题背景颜色*/
+table tr{ text-align:center; height:35px; font:"微软雅黑"; font-size:13px;}/*文本居中*/
+table tr.odd_numbered{ background-color:#E9F4FE;}/*奇数行换色*/
+.tablelist tbody tr:hover{background:#FFDCA9; cursor:pointer;}
+
+
+
+/*上一页下一页*/
+.attendance_main_Page_button_ly{ width:100%; height:50px;}
+.center_b_b_lf{width: 395px;height: 30px;margin-left: 42%;margin-top:100px;}
+.center_b_b_a_lf{width: 30px;height: 30px;float: left; cursor:pointer;}
+.center_b_b_a_lf img{margin-top: 10px;margin-left: 10px;}
+.center_b_b_b_lf{ width:30px; height:30px; float:left; background:#333; color:#FFF; text-align:center; line-height:30px;}
+.center_b_b_c_lf{ width:30px; height:30px; float:left;text-align:center; line-height:30px;}
+.center_b_b_d_lf{width:50px; height:30px; float:left;text-align:center; line-height:30px;}
+.center_b_b_e_lf{ width:135px; height:30px; background:#3ac0ff;float:left; text-align:center; line-height:30px; color:#FFF;font-family: "微软雅黑";font-size: 14px;}
+.center_b_c_lf{ width:395px; height: 30px;margin-top:10px;margin-left:22px;}
+.center_b_c_a_lf{width: 70px;height: 30px;float: left;}
+.center_b_c_a_lf input{ margin-top:8px;}
+.center_b_c_b_lf{width:60px; height: 30px; float:left;line-height:30px;font-family: "微软雅黑";font-size: 14px;}
+.center_b_c_c_lf{width: 78px;height: 30px;background: #fe644d;float: left;font-family: "微软雅黑";font-size: 13px;line-height: 28px;text-align: center;color: #FFF;margin-left: 30px;margin-top: 10px;}
+
+/*员工合同管理*/
+.Employee_contract_button_ly{ width:100%; margin-top:8px;}
+.Employee_contract_button_Preservation_ly{background-color:#FF653A; margin-left:93%;color:#FFF; height:30px; border:1px solid #FFF; width:50px;border-radius:5px 5px 5px 5px;}
+.Employee_contract_button_Preservation_ly:hover{ background-color:#FEA186; color:#fff; cursor:pointer;}
+.Employee_contract_button_download_ly{ background-color:#fff; color:#444; height: 30px;border: 1px solid #FFF;width: 90px;border-radius:5px 5px 5px 5px;background-repeat: no-repeat;background-position: left;}
+.Employee_contract_button_download_ly:hover{ background-color:#FEA186; color:#fff; cursor:pointer;}
+.Employee_contract_ly{ width:150px; height:95px;}
+.Employee_contract_tbody_ly tr{height:100px;}
+.post_main_delete_ly{background-color:#fff; margin-left:5px; color:#444;height:30px; border:1px solid #FFF; width:50px;border-radius:5px 5px 5px 5px;}
+.post_main_delete_ly:hover{ background-color:#FEA186; color:#fff; cursor:pointer;}
+/*员工加班记录表*/
+/*文本框*/
+.attendance_main_text_ly{ border:1px solid #CCC; width:155px; height:27px;}
+/*返回上一页*/
+.nav_place_lf{ height: 40px;float:right;line-height: 50px;margin-right:5%;font-family: "微软雅黑";font-size: 14px; color:#444}
+.nav_place_lf:hover{ color:#30b5ff;}
+

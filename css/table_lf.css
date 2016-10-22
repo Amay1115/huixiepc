@@ -1,0 +1,19 @@
+/*表格 表单 文本框样式*/
+
+/*表格*/
+.tablelist{width: 100%;float: left;background: #FFF;color: #444;margin-top: 15px;}
+.tablelist th{height:34px; line-height:34px; background-color: #EEEEEE;}/*标题背景颜色*/
+.tablelist tr{text-align:center; height:35px; font:"微软雅黑"; font-size:13px;}/*文本居中*/
+.tablelist td{line-height:35px;}
+.tablelist tr.odd_numbered{background-color:#E9F4FE;}/*奇数行换色*/
+.tablelist tbody tr.odd{background:#f2f9ff;}
+.tablelist tbody tr:hover{background:#FFDCA9;}
+.tablelink{color:#333;}
+/*表格*/
+/*表单*/
+form{margin-top: 15px;width: 100%;}
+textarea{width: 200px;height: 30px;border: 1px solid #dadada;margin-left:3%;}
+select{width: 150px;height: 28px;border: 1px solid #dadada;margin-left:3%; }
+/*文本框*/
+.input_a_lf{width:300px;height:25px;border: 1px solid #dadada;color:#c8c6c6;}
+/*表单*/

@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>印章使用记录</title>
+<link href="css/information management.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/information management.js"></script>
+</head>
+<body>
+ <div class="rightinfo">
+ <div class="cnm">
+ 		<img src="images/cnm.gif" /><span>当前位置：首页员工信息管理>基本信息</span>
+        <a href="javascript:history.back();" class="nav_place_lf">返回上一页</a>
+ </div>
+ <div class="position_hr_ly"></div>
+ <div class="gjj">
+ 		<img src="images/gjj.gif" /><span>基本信息</span>
+ </div>
+ <div class="leave_main_Line_ly"><img src="images/leave_Line.png" /></div>
+  <div class="tools">
+	  <div class="tools1">
+        <input name="" type="text" class="text_b_c" />
+        <div class="center_b_c_a_lq" onclick="selectAll()">搜索</div>
+      </div>
+	  <div class="tools2">
+        <div class="center_b_c_a_lq" onclick="selectAll()">添加</div>
+        <div class="toolbar_lq"></div>
+        <div class="center_b_c_a_lq" onclick="selectAll()">统计</div>
+        <div class="toolbar_lq"></div>
+        <div class="center_b_c_a_lq" onclick="selectAll()">导入</div>
+        <div class="toolbar_lq"></div>
+        <div class="center_b_c_a_lq" onclick="selectAll()">导出</div>
+      </div>
+  </div>
+    <table class="tablelist">
+        <thead>
+        <tr>
+        <th></th>
+        <th>员工编号<i class="sort"></i></th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>名族</th>
+        <th>身份证号码</th>
+        <th>学历</th>
+        <th>电话号码</th>
+        <th>邮箱</th>
+        <th>婚姻状况</th>
+        <th>户籍地</th>
+        <th>现居地</th>
+        <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td><input name="ckb" type="checkbox" value="" /></td>
+        <td>HX0001</td>
+        <td>张三</td>
+        <td>男</td>
+        <td>汉</td>
+        <td>436661198603137862</td>
+        <td>高中</td>
+        <td>13336666987</td>
+        <td>6543@163.com</td>
+        <td>已婚</td>
+        <td>湖北 恩施</td>
+        <td>浙江 湖州</td>
+        <td><input name=""  class="tablelink" value="查看" type="button" />  <input name=""  class="tablelink" value="删除" type="button" /></td>
+        </tr> 
+   
+        <tr>
+        <td><input name="ckb" type="checkbox" value="" /></td>
+        <td>HX0002</td>
+        <td>李红</td>
+        <td>女</td>
+        <td>汉</td>
+        <td>436661199008207862</td>
+        <td>高中</td>
+        <td>15866666987</td>
+        <td>9863@163.com</td>
+        <td>未婚</td>
+        <td>重庆 涪陵</td>
+        <td>浙江 湖州</td>
+        <td><input name=""  class="tablelink" value="查看" type="button" />  <input name=""  class="tablelink" value="删除" type="button" /></td>
+        </tr>
+        <tr>
+        <td><input name="ckb" type="checkbox" value="" /></td>
+        <td>HX0001</td>
+        <td>张三</td>
+        <td>男</td>
+        <td>汉</td>
+        <td>436661198603137862</td>
+        <td>高中</td>
+        <td>13336666987</td>
+        <td>6543@163.com</td>
+        <td>已婚</td>
+        <td>湖北 恩施</td>
+        <td>浙江 湖州</td>
+        <td><input name=""  class="tablelink" value="查看" type="button" />  <input name=""  class="tablelink" value="删除" type="button" /></td>
+        </tr>
+        <tr>
+        <td><input name="ckb" type="checkbox" value="" /></td>
+        <td>HX0002</td>
+        <td>李红</td>
+        <td>女</td>
+        <td>汉</td>
+        <td>436661199008207862</td>
+        <td>高中</td>
+        <td>15866666987</td>
+        <td>9863@163.com</td>
+        <td>未婚</td>
+        <td>重庆 涪陵</td>
+        <td>浙江 湖州</td>
+        <td><input name=""  class="tablelink" value="查看" type="button" />  <input name=""  class="tablelink" value="删除" type="button" /></td>
+        </tr>
+        <tr>
+        <td><input name="ckb" type="checkbox" value="" /></td>
+        <td>HX0001</td>
+        <td>张三</td>
+        <td>男</td>
+        <td>汉</td>
+        <td>436661198603137862</td>
+        <td>高中</td>
+        <td>13336666987</td>
+        <td>6543@163.com</td>
+        <td>已婚</td>
+        <td>湖北 恩施</td>
+        <td>浙江 湖州</td>
+        <td><input name=""  class="tablelink" value="查看" type="button" />  <input name=""  class="tablelink" value="删除" type="button" /></td>
+        </tr>
+        <tr>
+        <td><input name="ckb" type="checkbox" value="" /></td>
+        <td>HX0002</td>
+        <td>李红</td>
+        <td>女</td>
+        <td>汉</td>
+        <td>436661199008207862</td>
+        <td>高中</td>
+        <td>15866666987</td>
+        <td>9863@163.com</td>
+        <td>未婚</td>
+        <td>重庆 涪陵</td>
+        <td>浙江 湖州</td>
+        <td><input name=""  class="tablelink" value="查看" type="button" />  <input name=""  class="tablelink" value="删除" type="button" /></td>
+        </tr>
+        <tr>
+        <td><input name="ckb" type="checkbox" value="" /></td>
+        <td>HX0001</td>
+        <td>张三</td>
+        <td>男</td>
+        <td>汉</td>
+        <td>436661198603137862</td>
+        <td>高中</td>
+        <td>13336666987</td>
+        <td>6543@163.com</td>
+        <td>已婚</td>
+        <td>湖北 恩施</td>
+        <td>浙江 湖州</td>
+        <td><input name=""  class="tablelink" value="查看" type="button" />  <input name=""  class="tablelink" value="删除" type="button" /></td>
+        </tr>
+        <tr>
+        <td><input name="ckb" type="checkbox" value="" /></td>
+        <td>HX0002</td>
+        <td>李红</td>
+        <td>女</td>
+        <td>汉</td>
+        <td>436661199008207862</td>
+        <td>高中</td>
+        <td>15866666987</td>
+        <td>9863@163.com</td>
+        <td>未婚</td>
+        <td>重庆 涪陵</td>
+        <td>浙江 湖州</td>
+        <td><input name=""  class="tablelink" value="查看" type="button" />  <input name=""  class="tablelink" value="删除" type="button" /></td>
+        </tr>        
+        <tr>
+        <td><input name="ckb" type="checkbox" value="" /></td>
+        <td>HX0001</td>
+        <td>张三</td>
+        <td>男</td>
+        <td>汉</td>
+        <td>436661198603137862</td>
+        <td>高中</td>
+        <td>13336666987</td>
+        <td>6543@163.com</td>
+        <td>已婚</td>
+        <td>湖北 恩施</td>
+        <td>浙江 湖州</td>
+        <td><input name=""  class="tablelink" value="查看" type="button" />  <input name=""  class="tablelink" value="删除" type="button" /></td>
+        </tr>        
+        <tr>
+        <td><input name="ckb" type="checkbox" value="" /></td>
+        <td>HX0002</td>
+        <td>李红</td>
+        <td>女</td>
+        <td>汉</td>
+        <td>436661199008207862</td>
+        <td>高中</td>
+        <td>15866666987</td>
+        <td>9863@163.com</td>
+        <td>未婚</td>
+        <td>重庆 涪陵</td>
+        <td>浙江 湖州</td>
+        <td><input name=""  class="tablelink" value="查看" type="button" />  <input name=""  class="tablelink" value="删除" type="button" /></td>
+        </tr>        
+        <tr>
+        <td><input name="ckb" type="checkbox" value="" /></td>
+        <td>HX0001</td>
+        <td>张三</td>
+        <td>男</td>
+        <td>汉</td>
+        <td>436661198603137862</td>
+        <td>高中</td>
+        <td>13336666987</td>
+        <td>6543@163.com</td>
+        <td>已婚</td>
+        <td>湖北 恩施</td>
+        <td>浙江 湖州</td>
+        <td><input name=""  class="tablelink" value="查看" type="button" />  <input name=""  class="tablelink" value="删除" type="button" /></td>
+        </tr>        
+        <tr>
+        <td><input name="ckb" type="checkbox" value="" /></td>
+        <td>HX0002</td>
+        <td>李红</td>
+        <td>女</td>
+        <td>汉</td>
+        <td>436661199008207862</td>
+        <td>高中</td>
+        <td>15866666987</td>
+        <td>9863@163.com</td>
+        <td>未婚</td>
+        <td>重庆 涪陵</td>
+        <td>浙江 湖州</td>
+        <td><input name=""  class="tablelink" value="查看" type="button" />  <input name=""  class="tablelink" value="删除" type="button" /></td>
+        </tr>        
+        <tr>
+        <td><input name="ckb" type="checkbox" value="" /></td>
+        <td>HX0001</td>
+        <td>张三</td>
+        <td>男</td>
+        <td>汉</td>
+        <td>436661198603137862</td>
+        <td>高中</td>
+        <td>13336666987</td>
+        <td>6543@163.com</td>
+        <td>已婚</td>
+        <td>湖北 恩施</td>
+        <td>浙江 湖州</td>
+        <td><input name=""  class="tablelink" value="查看" type="button" />  <input name=""  class="tablelink" value="删除" type="button" /></td>
+        </tr>        
+        <tr>
+        <td><input name="ckb" type="checkbox" value="" /></td>
+        <td>HX0002</td>
+        <td>李红</td>
+        <td>女</td>
+        <td>汉</td>
+        <td>436661199008207862</td>
+        <td>高中</td>
+        <td>15866666987</td>
+        <td>9863@163.com</td>
+        <td>未婚</td>
+        <td>重庆 涪陵</td>
+        <td>浙江 湖州</td>
+        <td><input name=""  class="tablelink" value="查看" type="button" />  <input name=""  class="tablelink" value="删除" type="button" /></td>
+        </tr>                
+        </tbody>
+    </table>
+     <div class="recored_b_c_lq">
+         <div class="center_b_c_a_lq" onclick="selectAll()">全选</div>
+         <div class="center_b_c_a_lq" onclick="inverseCkb('ckb')">反选</div>
+   </div>
+   <div class="attendance_main_Page_button_ly">
+           <div class="center_b_b_lf">
+                             <div class="center_b_b_a_lf"><img src="images/ico0.png"/></div>
+                             <div class="center_b_b_b_lf" >1</div>
+                             <div class="center_b_b_c_lf">2</div>
+                             <div class="center_b_b_c_lf">3</div>
+                             <div class="center_b_b_c_lf">...</div>
+                             <div class="center_b_b_c_lf">14</div>
+                             <div class="center_b_b_a_lf"><img src="images/ico1.png"/></div>
+                             <div class="center_b_b_d_lf">第一页</div>
+                             <div class="center_b_b_e_lf">10条/页|共139条</div>
+                          </div>
+      </div>
+      <!--表格结束-->
+  </div>
+  </div>
+</body>
+</html>

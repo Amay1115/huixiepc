@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>新建培训记录表</title>
+<link href="css/Training_lf.css" rel="stylesheet" type="text/css" />
+<link href="css/table_lf.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body style="background:#FFF;">
+<div class="tice_lf">
+ 
+      <!--当前位置-->
+         <div class="place_lf">
+               <div class="position_img"><img src="images/index_mian_ico1.png"></div>
+                <span>您当前的位置：</span>
+                    <ul class="placeul_lf">
+                            <li class="placeul_li_lf">首页></li>
+                            <li class="placeul_li_a_lf"><a href="#">培训记录管理</a>></li> 
+                            <li class="placeul_li_a_lf"><a href="#">新建培训记录</a></li> 
+             
+                    </ul>
+                    <a href="javascript:history.back();" class="nav_place_lf">返回上一页</a>
+        </div>
+  
+       <!--当前位置-->
+     
+      <!--中间小导航-->
+<div class="nav_lf">
+                     <div class="nav_left_lf">
+                            <div class="nav_left_ico_lf"><img src="images/ico.png"/></div>
+                            <div class="nav_left_txt_lf"><span>新建培训记录</span></div>
+                            
+                     </div>
+                     <div class="nav_right_lf">
+                          <div class="nav_right_z_lf">
+                        
+                         <span><input name="" type="button"  class="nav_right_z_b_lf" value="保存"/></span>
+                         <div class="nav_right_z_e_lf"><a href="#"><img src="images/ico5.png"/></a></div>
+                   </div>
+               </div>
+
+  <!--中间小导航-->
+  <div class="nav_recored">
+        <div class="nav_a_a_v_lf"><img src="images/leave_Line.png"></div>
+        <div class="nav_recored_lf">
+                 <div class="center_z_text_a_lf"><span>新建培训记录</span></div>
+            </div>
+  </div>
+      
+  <!-- 新建培训记录-->
+  <div class="center_a_lf">
+                 <form method="post">  
+                    <div class="center_a_a_lf">
+                      <div class="center_a_a_left_lf"><span>员工名称：</span></div>
+                     <div class="center_a_a_right_lf"><input type="text" name="name" class="input_a_lf"></div>
+                   </div>
+                    <div class="center_a_a_lf">
+                      <div class="center_a_a_left_lf"><span>培训类别：</span></div>
+                     <div class="center_a_a_right_lf">
+                     <select name="selectname"> 
+                           <option>在职培训</option> 
+                           <option>离职培训</option>
+                           <option>企业公开培训</option>
+                       </select>
+                     </div>
+                   </div>
+                    <div class="center_a_a_lf">
+                      <div class="center_a_a_left_lf"><span>培训名称：</span></div>
+                      <div class="center_a_a_right_lf">
+                        <select name="selectname"> 
+                           <option>素质培训</option> 
+                           <option>技术培训</option>
+                           <option>管理培训</option>
+                       </select>
+                      </div>
+                   </div>
+                    <div class="center_a_a_lf">
+                      <div class="center_a_a_left_lf"><span>开始时间：</span></div>
+                     <div class="center_a_a_right_lf"><input type="text" name="name" class="input_a_lf"></div>
+                   </div>
+                    <div class="center_a_a_lf">
+                      <div class="center_a_a_left_lf"><span>结束时间：</span></div>
+                     <div class="center_a_a_right_lf"><input type="text" name="name" class="input_a_lf"></div>
+                   </div>
+                    <div class="center_a_a_lf">
+                      <div class="center_a_a_left_lf"><span>培训费用：</span></div>
+                     <div class="center_a_a_right_lf"><input type="text" name="name" class="input_a_lf"></div>
+                   </div>
+                    <div class="center_a_a_lf">
+                      <div class="center_a_a_left_lf"><span>培训地点：</span></div>
+                      <div class="center_a_a_right_lf"><input type="text" name="name" class="input_a_lf"></div>
+                   </div>
+                    <div class="center_a_a_lf">
+                      <div class="center_a_a_left_lf"><span>培训方式：</span></div>
+                     <div class="center_a_a_right_lf">
+                       <select name="selectname"> 
+                           <option>讲授法</option> 
+                           <option>技术考试</option>
+                           <option>工作轮换法</option>
+                           <option>工作指导法</option>
+                           <option>研讨法</option>
+                           <option>网上培训</option>
+                       </select>
+                     </div>
+                   </div>
+                    <div class="center_a_a_lf">
+                      <div class="center_a_a_left_lf"><span>主办单位：</span></div>
+                     <div class="center_a_a_right_lf">
+                     <select name="selectname"> 
+                           <option>常务理事会</option> 
+                           <option>某培训机构</option>
+                       </select>
+                     </div>
+                   </div>
+                    <div class="center_a_a_lf">
+                      <div class="center_a_a_left_lf"><span>负责人姓名：</span></div>
+                      <div class="center_a_a_right_lf"><input type="text" name="name" class="input_a_lf"></div>
+                   </div>
+                   <div class="center_a_btn_lf">
+                        <span><input name="" type="reset" class="center_a_btn_a_lf" value="提交"/></span>
+                        <span><input name="" type="submit" class="center_a_btn_a_lf" value="重置"/></span>
+                   </div>
+                </form>
+                  </div>
+  <!-- 新建培训通告-->
+  
+	
+ </div>
+ 
+</body>
+
+</html>

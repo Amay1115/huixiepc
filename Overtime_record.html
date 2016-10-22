@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>员工加班记录表</title>
+<link href="css/Check_work_attendance.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
+<body>
+<!--员工加班记录表-->
+<div class="leave_main_ly">
+  <!--当前位置-->
+      <div class="position_ly">
+         <div class="position_img_ly"><img src="images/index_mian_ico1.png"></div>
+         <div class="position_txt_ly"><a  class="position_a_ly" href="#">您当前的位置：首页 > 考勤管理>员工加班记录表</a></div>
+         <a href="javascript:history.back();" class="nav_place_lf">返回上一页</a>
+      </div>
+      <div class="position_hr_ly"></div>
+  <!--当前位置结束-->
+
+  <!--标题-->
+      <div class="leave_main_title_ly">
+       <div class="nav_left_lf">
+          <div class="nav_left_ico_lf"><img src="images/leave_ico3.png"/></div>
+          <div class="nav_left_txt_lf"><span>员工加班记录表</span></div>
+       </div>
+      </div> 
+  <!--标题结束-->
+  
+  <!--线-->
+      <div class="leave_main_Line_ly"><img src="images/leave_Line.png" /></div>
+  <!--线结束-->
+  
+  <!--导航-->
+      <div class="leave_main_nav_ly">
+         <a class="leave_main_nav_font_ly" href="Attendance_Sheet.html">员工签到</a>
+         <a class="leave_main_nav_font_ly" href="Leave_application_form.html">员工请假申请表</a>
+         <a class="leave_main_nav_font_ly" href="Leave_record.html">员工请假记录表</a>
+         <a class="leave_main_nav_font_ly" href="Employee_overtime_record.html">员工加班添加表</a>
+         <a class="leave_main_nav_font_ly" href="Overtime_record.html">员工加班记录表</a>
+      </div>
+  <!--导航结束-->  
+  <!--查询--> 
+      <div class="attendance_main_query_ly">
+          <div class="attendance_main_query_left_ly">
+          <form>
+             <div class="attendance_main_query_left_font_ly">员工姓名:
+              <input class="attendance_main_text_ly" name="" type="text" />
+              <input class="attendance_main_query_left_button_ly" name="" type="button" value="查询" />
+             </div>
+          </div>
+          <div class="attendance_main_query_right_ly">
+          <input class="attendance_main_query_right_button_ly" name="" type="button" value="添加" />
+          </div>
+          </form>
+          </div>
+      </div>
+      <!--表格-->
+      <div class="attendance_main_table_ly">
+        <table class="tablelist" width="100%">
+           <tr>
+            <th>姓名</th>
+            <th>部门</th>
+            <th>加班时长</th>
+            <th>加班时间</th>
+            <th>备注</th>
+          </tr>
+          <tbody>
+          <tr>
+            <td>陈鑫</td>
+            <td>技术部</td>
+            <td>4小时</td>
+            <td>09:00</td>
+            <td></td>
+          </tr>
+          <tr class="odd_numbered">
+            <td>杨超</td>
+            <td>技术部</td>
+            <td>5小时</td>
+            <td>10:00</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>古韵</td>
+            <td>技术部</td>
+            <td>2小时</td>
+            <td>14:00</td>
+            <td></td>
+          </tr>
+          <tr class="odd_numbered">
+            <td>陈寅</td>
+            <td>销售部</td>
+            <td>1小时</td>
+            <td>11:00</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>张希</td>
+            <td>财务部</td>
+            <td>4小时</td>
+            <td>10:00</td>
+            <td></td>
+          </tr>
+          <tr class="odd_numbered" >
+            <td>黄鑫</td>
+            <td>技术部</td>
+            <td>5小时</td>
+            <td>13:00</td>
+            <td>已批准</td>
+          </tr>
+          <tr>
+            <td>刘晨</td>
+            <td>技术部</td>
+            <td>3小时</td>
+            <td>16:00</td>
+            <td>已批准</td>
+          </tr>
+          <tr class="odd_numbered">
+            <td>刘海</td>
+            <td>销售部</td>
+            <td>2小时</td>
+            <td>12:50</td>
+            <td>已批准</td>
+          </tr>
+          <tr>
+            <td>陈晨</td>
+            <td>财务部</td>
+            <td>4小时</td>
+            <td>16:30</td>
+            <td>已批准</td>
+          </tr>
+          <tr class="odd_numbered">
+            <td>向芹</td>
+            <td>销售部</td>
+            <td>3小时</td>
+            <td>15:00</td>
+            <td>已批准</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          </tbody>
+        </table>
+
+      </div>
+      <!--表格结束-->
+      <!--上一页下一页-->
+      <div class="attendance_main_Page_button_ly">
+        
+           <div class="center_b_b_lf">
+                             <div class="center_b_b_a_lf"><img src="images/ico0.png"/></div>
+                             <div class="center_b_b_b_lf" >1</div>
+                             <div class="center_b_b_c_lf">2</div>
+                             <div class="center_b_b_c_lf">3</div>
+                             <div class="center_b_b_c_lf">...</div>
+                             <div class="center_b_b_c_lf">14</div>
+                             <div class="center_b_b_a_lf"><img src="images/ico1.png"/></div>
+                             <div class="center_b_b_d_lf">第一页</div>
+                             <div class="center_b_b_e_lf">10条/页|共139条</div>
+                          </div>
+        
+        
+      </div>
+      <!--表格结束-->
+</body>
+</html>
